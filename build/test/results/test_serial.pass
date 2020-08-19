@@ -1,0 +1,74 @@
+---
+:source:
+  :path: test
+  :file: test_serial.c
+:successes:
+- :test: test_setup_puerto_serie
+  :line: 30
+  :message: ''
+  :unity_test_time: 0
+- :test: test_recibo_char_SOM
+  :line: 37
+  :message: ''
+  :unity_test_time: 0
+- :test: test_recibo_char_EOM
+  :line: 47
+  :message: ''
+  :unity_test_time: 0
+- :test: test_recibo_char_otro
+  :line: 57
+  :message: ''
+  :unity_test_time: 0
+- :test: test_recibo_cualquier_mensaje
+  :line: 67
+  :message: ''
+  :unity_test_time: 0
+- :test: test_recibir_comando
+  :line: 94
+  :message: ''
+  :unity_test_time: 0
+- :test: test_recibir_comando_opcion
+  :line: 110
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
+:counts:
+  :total: 7
+  :passed: 7
+  :failed: 0
+  :ignored: 0
+:stdout:
+- 1)Test de inicio de la variable newData
+- 2)Test de validacion de SOM
+- RECIBI SOM
+- 3)Test de validacion de EOM
+- RECIBI EOM
+- 4)Test recibo cualquier dato
+- 5)Test recibo mensaje
+- RECIBI SOM
+- RECIBI EOM
+- 6)Test recibo comando
+- 0)<
+- RECIBI SOM
+- 1)L
+- 2)O
+- 3)N
+- 4)+
+- 5)I
+- 6)D
+- 7)>
+- RECIBI EOM
+- 7)Test recibo comando opcion
+- 0)<
+- RECIBI SOM
+- 1)L
+- 2)O
+- 3)F
+- 4)F
+- 5)+
+- 6)I
+- 7)D
+- 8)>
+- RECIBI EOM
+:time: 0.001376901999947222
